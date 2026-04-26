@@ -11,3 +11,10 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 
 --Ignore
 vim.keymap.set({'n', 'i'}, '<C-v>', '<C-v>', { noremap = true })
+
+-- External
+vim.keymap.set("n", "<F1>", function()
+    local word = vim.fn.expand("<cword>")
+    local url = "https://docs.godotengine.org/en/stable/search.html?q=" .. word
+    vim.fn.jobstart({ "cmd", "/c", "start", url }, { detach = true })
+end)

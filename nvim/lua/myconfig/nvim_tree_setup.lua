@@ -8,8 +8,13 @@ local nvim_tree_config = {
     sort     = { sorter = "case_sensitive",},
     view     = { width = 30,},
     renderer = { group_empty = true,},
-    filters  = { dotfiles = true,},
-  }
+    filters  = { 
+        dotfiles = true,
+        custom = {
+            ".uid",
+        },
+    },
+}
 
 require("nvim-tree").setup(nvim_tree_config)
 

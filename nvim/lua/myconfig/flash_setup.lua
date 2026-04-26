@@ -6,6 +6,5 @@ require("flash").setup {
 }
 
 --flash
---
 vim.keymap.set({ "n", "x", "o" }, "f", function()
   require("flash").jump() end, { desc = "Flash jump (replaces f motion)" })
