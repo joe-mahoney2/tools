@@ -7,6 +7,7 @@ vim.pack.add({
     { src = 'https://github.com/neovim/nvim-lspconfig' },
     { src = 'https://github.com/nvim-treesitter/nvim-treesitter.git' },
     { src = 'https://github.com/numToStr/Comment.nvim.git' },
+    { src = 'https://github.com/lewis6991/gitsigns.nvim.git' },
 --    { src = '' },
 })
 
@@ -19,3 +20,6 @@ require("myconfig/comment_setup")
 --Lsp stuff
 require("myconfig/lsp_config")
 require("myconfig/treesitter_setup")
+
+--Git
+require("myconfig/gitsigns_setup")
