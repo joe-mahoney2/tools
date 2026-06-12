@@ -9,7 +9,7 @@ local nvim_tree_config = {
     view     = { width = 30,},
     renderer = { group_empty = true,},
     filters  = { 
-        dotfiles = true,
+        dotfiles = false,
         custom = {
             ".uid",
         },
