@@ -14,4 +14,5 @@ vim.opt.wrap       = false
 --Misc
 vim.opt.swapfile   = false
 
-vim.cmd("colorscheme desert")
+-- vim.cmd("colorscheme desert")
+vim.cmd("colorscheme catppuccin")

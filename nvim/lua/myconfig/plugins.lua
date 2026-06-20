@@ -8,6 +8,7 @@ vim.pack.add({
     { src = 'https://github.com/nvim-treesitter/nvim-treesitter.git' },
     { src = 'https://github.com/numToStr/Comment.nvim.git' },
     { src = 'https://github.com/lewis6991/gitsigns.nvim.git' },
+    { src = 'https://github.com/akinsho/git-conflict.nvim.git' },
 --    { src = '' },
 })
 
@@ -16,6 +17,7 @@ require("myconfig/nvim_tree_setup")--nvim tree and devicons
 require("myconfig/flash_setup")
 require("myconfig/fzf_setup")
 require("myconfig/comment_setup")
+require("myconfig/git_conflict_setup")
 
 --Lsp stuff
 require("myconfig/lsp_config")

@@ -1,0 +1,13 @@
+require('git-conflict').setup()
+-- they had this suguestion there so just dropping it in here
+-- require('git-conflict').setup {
+--   default_mappings = {
+--     ours   = 'o',
+--     theirs = 't',
+--     both   = 'b',
+--     none   = '0',
+--     next   = 'n',
+--     prev   = 'p',
+--   },
+-- }
+--
